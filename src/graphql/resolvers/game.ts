@@ -1,6 +1,6 @@
 import { IResolvers } from 'apollo-server-express';
 
-export const game: IResolvers = {
+export const gameResolver: IResolvers = {
     Query: {
         gameHello(){
             return "game works"

@@ -1,6 +1,6 @@
 import { IResolvers } from 'apollo-server-express';
 
-export const character: IResolvers = {
+export const characterResolver: IResolvers = {
     Query: {
         hello(){
             return "world"
