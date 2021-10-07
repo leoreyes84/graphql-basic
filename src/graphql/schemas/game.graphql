@@ -3,6 +3,6 @@ type Query {
 }
 
 type Game {
-    id: ID
-    name: String
+    _id: ID
+    title: String
 }
